@@ -41,7 +41,7 @@ namespace DotNetIntegration
         {
             //webBrowser1.ScriptErrorsSuppressed = true;
             webBrowser1.AllowWebBrowserDrop = false;
-            webBrowser1.AllowNavigation = false;
+            //webBrowser1.AllowNavigation = false;
             webBrowser1.IsWebBrowserContextMenuEnabled = false;
             webBrowser1.WebBrowserShortcutsEnabled = false;
 
