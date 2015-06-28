@@ -1,2 +1,2 @@
 # DotNetBrowserIntegration
-Shows how integrate into a .NET webbrowser component
+Shows how interact with the iframe integration form a .NET webbrowser component
