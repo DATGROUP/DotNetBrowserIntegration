@@ -25,9 +25,9 @@ namespace DotNetIntegration
                 MessageBox.Show(message, ".NET Client code");
             }
 
-            public void onSuccess()
+            public void onSuccess(String message)
             {
-
+                MessageBox.Show(message, ".NET Client code");
             }
 
         };
@@ -43,7 +43,7 @@ namespace DotNetIntegration
             webBrowser1.AllowWebBrowserDrop = false;
             //webBrowser1.AllowNavigation = false;
             webBrowser1.IsWebBrowserContextMenuEnabled = false;
-            webBrowser1.WebBrowserShortcutsEnabled = false;
+            //webBrowser1.WebBrowserShortcutsEnabled = false;
 
             webBrowser1.ObjectForScripting = new ScriptingObject();
             // Uncomment the following line when you are finished debugging. 
@@ -65,6 +65,11 @@ namespace DotNetIntegration
         {
             button2.Enabled = true;
             button3.Enabled = true;
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            webBrowser1.ScriptErrorsSuppressed = checkBox1.Checked;
         }
 
 
