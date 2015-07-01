@@ -1,6 +1,6 @@
 # DotNetBrowserIntegration
 
-Illustrates how to integrate (an embedded SilverDat)[https://github.com/DATGROUP/EmbeddingSilverDat] into a a .NET webbrowser component.
+Illustrates how to integrate [an embedded SilverDat](https://github.com/DATGROUP/EmbeddingSilverDat) into a a .NET webbrowser component.
 
 Quick start Guide 
   * Fork the project or [download it as zip](https://github.com/DATGROUP/EmbeddingSilverDat/archive/master.zip)
